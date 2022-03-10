@@ -25,3 +25,7 @@ const union: (string | number)[] = [ 'apple', 'grape', 'banana', 2 ]
 
 console.log(typeof fruits) // Object
 console.log(typeof union) // Object
+
+// Tuple型
+const book: [string, number, boolean] = ['bussiness', 1500, false]
+console.log(typeof book) // Object

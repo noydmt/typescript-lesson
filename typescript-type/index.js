@@ -17,3 +17,6 @@ var fruits = ['apple', 'grape', 'banana'];
 var union = ['apple', 'grape', 'banana', 2];
 console.log(typeof fruits); // Object
 console.log(typeof union); // Object
+// Tuple型
+var book = ['bussiness', 1500, false];
+console.log(typeof book);
