@@ -19,3 +19,9 @@ const person: {
 }
 
 console.log(typeof person)
+
+const fruits: string[] = [ 'apple', 'grape', 'banana' ]
+const union: (string | number)[] = [ 'apple', 'grape', 'banana', 2 ]
+
+console.log(typeof fruits) // Object
+console.log(typeof union) // Object
