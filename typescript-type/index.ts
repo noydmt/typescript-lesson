@@ -9,3 +9,13 @@ console.log(typeof count)
 console.log(typeof float)
 console.log(typeof negative)
 console.log(typeof single)
+
+const person: {
+  name: string;
+  age: number;
+} = {
+  name: 'Tanaka',
+  age: 34
+}
+
+console.log(typeof person)
